@@ -1,6 +1,9 @@
 # findcontact-directadmin
 findcontact module for IP lookups using the Directadmin Api
 
+## Beta
+This software is in beta. Please test and report back to us.
+
 ## Installation
     
     composer require abuseio/findcontact-directadmin
