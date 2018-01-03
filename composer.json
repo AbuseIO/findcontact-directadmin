@@ -1,0 +1,33 @@
+{
+    "name": "abuseio/findcontact-directadmin",
+    "description": "AbuseIO module for ip lookups in Directadmin.",
+    "version": "1.0.2",
+    "keywords": ["laravel", "abuseio", "findcontact", "directadmin"],
+    "homepage": "http://abuse.io",
+    "type": "library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "AbuseIO Foundation",
+            "email": "dev@abuse.io",
+            "homepage": "http://abuse.io",
+            "role": "Lead"
+        }
+    ],
+    "support": {
+        "email": "dev@abuse.io",
+        "issues": "https://github.com/AbuseIO/AbuseIO/issues",
+        "irc": "irc://irc.freenode.net/abuseio",
+        "source": "https://github.com/AbuseIO/findcontact-directadmin",
+        "docs": "https://abuse.io/resources/documentation/"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "directadmin/directadmin": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AbuseIO\\FindContact\\": "src/"
+        }
+    }
+}
